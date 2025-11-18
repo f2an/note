@@ -1,0 +1,23 @@
+# --- 编译生成的二进制文件 (Fortran/C) ---
+*.out
+*.exe
+*.o
+*.mod
+*.smod
+
+# --- LaTeX 编译生成的临时垃圾 ---
+*.aux
+*.log
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+# (注：如果您希望保留生成的 PDF 给人看，就把上面这行 *.pdf 删掉)
+
+# --- VS Code 自己的配置文件夹 (不需要上传) ---
+.vscode/
+
+# --- 系统缩略图垃圾 ---
+.DS_Store
+Thumbs.db
