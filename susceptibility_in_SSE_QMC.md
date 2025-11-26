@@ -19,7 +19,11 @@ $$Z=tr(e^{-\beta H})=tr[e^{-\beta H_0} (1+bB)]=Z_0+Z_0b\beta\langle B\rangle_0$$
 
 $B$ 在 $H_0$ 下的期望值与时间无关。
 
-$$\langle A(b)\rangle=tr[A(b)e^{-\beta H} ]\\ =\frac{Z_0\langle A\rangle_0+bZ_0\int_0^\beta\langle AB(\tau)\rangle d\tau}{Z_0(1+b\beta\langle B\rangle_0)}$$
+$$
+\begin{equation}
+\langle A(b)\rangle=tr[A(b)e^{-\beta H} ]\\ =\frac{Z_0\langle A\rangle_0+bZ_0\int_0^\beta\langle AB(\tau)\rangle d\tau}{Z_0(1+b\beta\langle B\rangle_0)}
+\end{equation}
+$$
 
 泰勒展开到一阶：
 
